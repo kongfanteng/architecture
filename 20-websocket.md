@@ -2,7 +2,9 @@
 - 半双功 单双向通信
 - 双功 全双向通信
 #### 双向通信
-> 轮询(polling) 长轮询(long-polling) iframe流(streaming)
+> 轮询(polling):前端定时请求后台 
+> 长轮询(long-polling) ：前端请求成功后再请求，后端定时返回
+> iframe流(streaming)：
 
 ```
 ## express 
